@@ -14,10 +14,9 @@
             //Ext: Display the number of iterations needed until 6174 is reached
 
             Console.WriteLine("Hello, Type a four digit number:"); //starter code for students
-            int x = Convert.ToInt32(Console.ReadLine()); //starter for students
-            //YOUR CODE GOES HERE....
-            int[] Number = { };
-
+            string x = Console.ReadLine(); //starter for students
+            string[] Number = { x[0],x(1),x(2),x(3)};
+            Console.WriteLine(Number[0]);
         }
     }
 }
